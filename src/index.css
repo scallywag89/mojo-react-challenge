@@ -1,0 +1,60 @@
+@font-face {
+  font-display: "swap";
+  font-family: "FuturaBTBook";
+  src: local("FuturaBTBook"), url("../public/fonts/FuturaBT-Book.woff2") format("woff2");
+}
+
+body {
+  margin: 0;
+}
+
+.web-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 52px 120px 44px;
+  gap: 32px;
+  background-color: #FFCE85;
+  max-width: 1440px;
+  height: 585px;
+}
+
+.web-header-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0px;
+  gap: 388px;
+  width: 1200px;
+  height: 76px;
+  color: white;
+}
+
+.web-header-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 44px;
+  width: 1200px;
+  height: 381px;
+  background-color: black;
+  margin: 0 auto;
+}
+
+.web-header-menu-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0px;
+}
+
+.web-header-menu-navitem {
+  display: inline-block;
+  margin: 0 10px;
+}

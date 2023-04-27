@@ -1,0 +1,10 @@
+.section1 img {
+  height: 400px;
+}
+
+.section1 {
+  background: #FFC367;
+  padding: 40px 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
