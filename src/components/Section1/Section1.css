@@ -3,8 +3,29 @@
 }
 
 .section1 {
-  background: #FFC367;
+  background: linear-gradient(to top, #FFAE33, #ffc77a);
   padding: 40px 100px;
   display: flex;
   justify-content: space-evenly;
+}
+
+.section1-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+.section1-content Button {
+  justify-content: flex-start;
+  max-width: fit-content;
+}
+
+#section1-header {
+  margin-bottom: 20px;
+}
+
+#section1-sub {
+  font-weight: lighter;
+  margin-bottom: 20px;
 }

@@ -1,0 +1,11 @@
+.footer {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  background-color: #313232;
+  padding: 0px 40px;
+}
+
+.footer-link {
+  color: #FFFFFF;
+}

@@ -1,0 +1,16 @@
+.card img {
+  border-radius: 4px;
+  width: 300px;
+  height: 180px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.card ul {
+  padding-left: 20px;
+}
+
+.card {
+  width: 300px;
+  overflow: hidden;
+}

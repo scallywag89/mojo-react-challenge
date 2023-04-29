@@ -14,3 +14,14 @@
   margin: 0 auto;
   padding: 0px 50px;
 }
+
+.section2-highlight-text {
+  text-align: center;
+  padding: 0 80px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px 200px;
+}

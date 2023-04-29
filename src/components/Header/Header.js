@@ -1,4 +1,3 @@
-import Typography from '../Typography';
 import './Header.css'
 import logoUrl from '../../assets/logo.webp';
 import NavBar from '../NavBar';

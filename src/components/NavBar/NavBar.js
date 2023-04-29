@@ -6,12 +6,12 @@ function Navbar() {
   return (
     <nav>
       <ul>
-        <li><a href="#"><Typography>Home</Typography></a></li>
-        <li id='active'><a href="#"><Typography>Course & App</Typography></a></li>
-        <li><a href="#"><Typography>For Work</Typography></a></li>
-        <li><a href="#"><Typography>Merch</Typography></a></li>
-        <li><a href="#"><Typography>Contact Us</Typography></a></li>
-        <li><a href="#"><Typography>My Account</Typography></a></li>
+        <li><a href="#"><Typography variant="futuraTitleXSmall">Home</Typography></a></li>
+        <li id='active'><a href="#"><Typography variant="futuraTitleXSmall">Course & App</Typography></a></li>
+        <li><a href="#"><Typography variant="futuraTitleXSmall">For Work</Typography></a></li>
+        <li><a href="#"><Typography variant="futuraTitleXSmall">Merch</Typography></a></li>
+        <li><a href="#"><Typography variant="futuraTitleXSmall">Contact Us</Typography></a></li>
+        <li><a href="#"><Typography variant="futuraTitleXSmall">My Account</Typography></a></li>
       </ul>
     </nav>
   );

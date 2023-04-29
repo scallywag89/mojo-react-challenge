@@ -1,21 +1,15 @@
-const styles = {
-  FuturaParagraphMedium: {
-    fontFamily: 'FuturaBTBook',
-    fontSize: 16,
-    fontWeight: 400,
-    letterSpacing: -0.4,
-    lineHeight: '20px',
-  },
-};
+import React from 'react';
+import './Typography.css';
 
 function Typography(props) {
-  const { children, variant = 'FuturaParagraphMedium' } = props;
+  const { children, variant = 'FuturaParagraphMedium', className } = props;
 
   return (
-    <div style={styles[variant]}>
+    <div className={`${variant} ${className}`}>
       {children}
     </div>
   );
 }
+
 
 export default Typography;
