@@ -17,9 +17,11 @@ function Section2() {
           <Typography variant="futuraParagraphSmall" className="margin-bottom-8">Why are there so many self help books,apps and programs about confidence and happiness, but people still feel stuck?</Typography>
           <Typography variant="futuraParagraphSmall" className="margin-bottom-8">Because it's complex and it takes work. The Mojo Course and App gives people a unique, simple and practical way to do that work</Typography>
           <Typography variant="futuraParagraphSmall" className="margin-bottom-30">We're not a mindfulness app. We go deeper by helping you figure out who you are, what you want and how to get there.</Typography>
-          <Typography variant="futuraParagraphSmall">
-            <Button variant="primary">WATCH NOW</Button>
-          </Typography>
+          <Button variant="primary">
+            <Typography variant="futuraParagraphSmall">
+              WATCH NOW
+            </Typography>
+          </Button>
         </div>
       </div>
       <div className="section2-highlight-text">

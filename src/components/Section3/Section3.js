@@ -22,11 +22,15 @@ function Section3() {
           <Typography variant="futuraParagraphSmall" className="margin-bottom-8">The cost of a membership is $15 per month thereafter.</Typography>
           <Typography variant="futuraParagraphSmall" className="margin-bottom-8">The membership includes:</Typography>
           <ul>
-            <li><Typography className="futuraParagraphSmall">Full access to the Mojo Mindset Course</Typography></li>
-            <li><Typography className="futuraParagraphSmall">Access to all the premium content in the library</Typography></li>
-            <li><Typography className="futuraParagraphSmall">Members masterclasses with Ben Crowe</Typography></li>
+            <li><Typography variant="futuraParagraphSmall">Full access to the Mojo Mindset Course</Typography></li>
+            <li><Typography variant="futuraParagraphSmall">Access to all the premium content in the library</Typography></li>
+            <li><Typography variant="futuraParagraphSmall">Members masterclasses with Ben Crowe</Typography></li>
           </ul>
-          <Button variant="primary">START YOUR JOURNEY</Button>
+          <Button variant="primary">
+            <Typography variant="futuraParagraphSmall">
+              START YOUR JOURNEY
+            </Typography>
+          </Button>
         </div>
       </div>
     </div>

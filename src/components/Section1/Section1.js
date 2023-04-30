@@ -11,7 +11,11 @@ function Section1() {
         <Typography variant="futuraHeadingLarge" className="margin-bottom-30">A SIMPLE APPROACH TO FIND HAPPINESS AND CONFIDENCE</Typography>
         <Typography variant="newYorkHeadingSmall" className="margin-bottom-30">3 Questions and 3 Mindsets to change your life</Typography>
         <Typography variant="futuraParagraphSmall">
-          <Button variant="primary">START YOUR JOURNEY</Button>
+          <Button variant="primary">
+            <Typography variant="futuraParagraphSmall">
+              START YOUR JOURNEY
+            </Typography>
+          </Button>
         </Typography>
       </div>
     </div>

@@ -1,0 +1,18 @@
+.Chip {
+  display: flex;
+  align-items: center;
+  border-radius: 44px;
+  max-width: none;
+  border: none;
+  line-height: 16px;
+  letter-spacing: -0.4px;
+  padding: 9px 15px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.active {
+  box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.15);
+  background-color: black;
+  color: #FFFFFF;
+}
